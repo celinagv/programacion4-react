@@ -1,0 +1,93 @@
+:root {
+  font-family: system-ui, 'Segoe UI', Roboto, sans-serif;
+  line-height: 1.5;
+  color: #1f2937;
+  background: #ffffff;
+}
+
+body {
+  margin: 0;
+}
+
+#root {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 24px 16px;
+}
+
+section {
+  margin: 32px 0;
+}
+
+h1 {
+  font-size: 28px;
+}
+
+h2 {
+  font-size: 20px;
+  border-bottom: 2px solid #0e7490;
+  padding-bottom: 4px;
+}
+
+button {
+  cursor: pointer;
+  padding: 6px 12px;
+  border: 1px solid #0e7490;
+  border-radius: 6px;
+  background: #cffafe;
+  font: inherit;
+  font-weight: 600;
+}
+
+button:disabled {
+  opacity: 0.4;
+  cursor: not-allowed;
+}
+
+input {
+  padding: 6px 10px;
+  border: 1px solid #cbd5e1;
+  border-radius: 6px;
+  font: inherit;
+}
+
+/* Ejercicios 1 y 7: tarjetas de producto */
+.tarjetas {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.tarjeta {
+  min-width: 140px;
+  padding: 12px 16px;
+  border: 1px solid #cbd5e1;
+  border-radius: 8px;
+}
+
+.tarjeta h3 {
+  margin: 0 0 4px;
+}
+
+.tarjeta p {
+  margin: 4px 0;
+}
+
+/* Ejercicio 2: contador */
+.contador {
+  font-size: 40px;
+  font-weight: 700;
+  margin: 0 0 8px;
+}
+
+/* Ejercicio 4: conversor de temperatura */
+.resultado {
+  font-size: 32px;
+  font-weight: 700;
+  margin: 8px 0;
+}
+
+/* Ejercicio 7: etiqueta de oferta */
+.oferta {
+  font-weight: 700;
+}
